@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Investor Ledger</title>
+
+    <style>
+      body {
+				font-family: 'Manrope', sans-serif !important;
+      }
+
+    </style>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap" rel="stylesheet">
+		<script type="text/javascript" src="script.js"></script>
+  </head>
+
+  <body>
+		<div class="container-xl">
+			<div class="py-lg-5 px-lg-5">
+
+				<h3 class="text-start">Investing account</h3>
+			</div>
+
+			<div class="py-lg-3 px-lg-5 bg-secondary-subtle">
+
+				<h1 id="account-balance" class="fs-2 text-start pt-3"></h1>
+				<p class="fs-4 text-start">Balance</p>
+			</div>
+
+			<div class="px-lg-5 mt-4 mb-4">
+				<h3>Past Transactions</h3>
+				<h5 id="statement-period"></h5>
+			</div>
+
+			<div class="px-lg-5" id="ledger-table">
+				<table class="table  table-hover">
+					<thead>
+						<tr>
+							<th scope="col">Date</th>
+							<th scope="col">Type</th>
+							<th scope="col">Description</th>
+							<th scope="col">Amount</th>
+							<th scope="col">Balance</th>
+						</tr>
+					</thead>
+
+					<tbody id="ledger-table-body">
+						<!-- Table code goes here -->
+						<!-- <tr>
+							<th>Line item Date</th>
+							<th>Line item Type</th>
+							<th>Line item Description</th>
+							<th>Line item Amount</th>
+							<th>Line item Balance</th>
+						</tr> -->
+					</tbody>
+				</table>
+			</div>
+		</div>
+
+		<script type = "text/JavaScript" src = " https://MomentJS.com/downloads/moment.js"></script>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+>> Write notes about your proposal for Mission 2 here. <<
+
+
+We can add 2 menu buttons "Deposit" and "Withdraw" in Navbar
+
+Once users click on "Deposit" we can redirect them to /deposit page 
+Where they will be asked:
+	1) How much funds do they want to deposit? 
+	2) By which method do they want to deposit? (We have to give them different options like UPI, Net banking, Debit/Credit Card)
+Once the user confirms these two and transfers funds from other sources to this bank. we have to validate this transaction and show them the success or failure message
+
+Similarly, we can implement Withdrawal functionality.
+
+Once users click on "Withdraw" we can redirect them to /withdraw page 
+Where they will be asked:
+	1) How much funds do they want to withdraw?
+	2) To whom do they want to transfer funds? (It can be other bank accounts)
+Once the user confirms these two and transfers funds from this bank to another. we have to validate this transaction and show them the success or failure message
+
+
+
+

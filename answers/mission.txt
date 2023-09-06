@@ -1,0 +1,22 @@
+>> Write notes about how you would debug here. 3_1.txt <<
+
+First, I will ask user about transaction time (approx.), amount, and proof of debit.
+
+Then From the admin account, I will check for that transaction of the user.
+If that transaction doesn't show in UI, then I will check the API response in the browser's Network tab
+If I can find that transaction in the API response, but don't see it in frontend then I will conclude that it's a frontend bug, 
+Something wrong in the logic of filtering transactions.
+
+If I don't find that transaction in the API response, then I will check on the database level, if I found there then I will conclude that it's a backend bug, 
+Something wrong while querying the database or transaction API logic
+
+If I don't find that transaction in the Database I will contact the payment services provider and "Startup X" regarding this transaction. 
+Based on their reply I will respond to Dr. V. Horrible.
+Possible reply can be:
+	1) Transaction failed due to technical issues 
+	2) Transaction amount was refunded or will be refunded within few days
+
+
+
+
+
